@@ -1,0 +1,27 @@
+{"intents":[
+    {"tag":"Saludos",
+        "patterns":["hola","Necesito ayuda", "Saludos","Como se encuentra hoy", "¿Como le va?"],
+    "responses":["Hola le habla el servicio de movistar", "Buen dia en que le puedo ayudar", "Como se encuentra le habla movistar","Cuenteme como le puedo ayudar con su servicio de Movistar"]},
+    {"tag":"Preguntas",
+        "patterns":["Quisiera cambiar mi número","Quisiera cortar mi linea","Quisiera saber los planes","Quisiera conocer sobre mis pagos","Tengo problemas con mi internet"],
+    "responses":["Muy bien, ¿linea prepago o pospago?", "O lamento oir eso ¿me puede comentar el problema?", "A la orden, dejame buscar tu estado de cuenta","Detalleme el problema"]},
+    {"tag":"Datos",
+        "patterns":["Quiero adquirir un numero","Quiero adquirir el servicio de internet hogar","Quiero saber sobre los servicios de telefonia","Como son los planes que tiene"],
+    "responses":["Podria brindarme su nombre completo y DNI", "Porfavor ingrese su nombre completo y DNI", "Para seguir el proceso requiero de tu nombre y DNI", "Para conocerlos podria brindarme su nombre y DNI"]},
+    {"tag":"Celulares",
+        "patterns":["Que celulares tiene para el plan","Me pasa la lista de celulares","Quisiera ver los equipos que tiene", "Con que celulares cuenta","Que celulares tiene", "Celulares que tiene?"],
+    "responses":["Contamos con toda la linea de Apple desde el 10 en adelante", "Tenemos promociones para los celulares de Samsung", "Hay varias promociones con que tienen celulares Xiaomi"]},
+    {"tag":"Internet",
+        "patterns":["Con que velocidad de internet cuenta","¿Cuenta con internet de fibra optica?","¿el internet mas rapido que tenga?","¿Servicio de internet?", "Internet","Cual es el internet mas barato?"],
+    "responses":["Contamos con internet desde 30 mbps hasta 1gbs", "Contamos con internet de fibra obtica de la mejor calidad", "Tenemos el internet mas rapido de mi cuadra", "Contamos con el mejor de internet para hogar del pais","Tenemos planes de internet hogar desde 40 soles"]},
+    {"tag":"Servicios",
+        "patterns":["Que servicios brinda?","Buenos dias","Buenas noches","Necesito ayuda", "Saludos","Como se encuentra hoy", "¿Como le va?"],
+    "responses":["Tenemos servicios de telefonia e internet ", "Hey", "What can i do for you"]},
+    {"tag":"Despedida",
+        "patterns":["adios","Tenga buenas noches","Buenas noches","Gracias por su ayuda", "Bye","Le escribo mañana", "Luego hablamos"],
+    "responses":["Cuidese", "Nos vemos", "Tenga un buen dia","Espero su regreso","Cualquier consulta estoy aqui","Hablamos luego"]},
+    {"tag":"Movistar bot",
+    "patterns":["Con quien hablo?","Quien eres?","Como se llama?","Quien eres?","Como te llamo?"],
+"responses":["Soy el bot de movistar NEURAL", "Me llamo NEURAL", "Puedes llamarme NEURAL","Aqui NEURAL el bot inteligente"]}
+
+]}

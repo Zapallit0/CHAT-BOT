@@ -1,0 +1,24 @@
+{"intents":[
+    {"tag":"Greetings",
+        "patterns":["Hello","Hey", "Hi","Good day", "Greetings","What's up?","How is it going?"],
+    "responses":["Hello!","Hey", "What can I do for you"]},
+    {"tag":"goodbye",
+        "patterns":["cya","See you later","Goodbye","I'm leaving","Have a good day","Bye","cao","see ya"],
+    "responses":["Sad to see you go :(", "Talk you later", "Goodbye!","See you later"]},
+    {"tag":"age",
+        "patterns":["How old","How old are u","what is your age","age?","How old is Jhersvin"],
+    "responses":["My owner Jhersvin is 21 years old", "21 years old!", "I'm 21 years old"]},
+    {"tag":"name",
+        "patterns":["What is your name?","What should I call you?","What's your name?", "Who are you?","Can you tell me your name?"],
+    "responses":["You can call me Movistar neural", "I'm Movistar neural", "I'm movistar assistant Neural"]},
+    {"tag":"shop",
+        "patterns":["I'd like to buy something","","What are your products?","What do you recomend", "What is your best service?","Which is your best selling product?"],
+    "responses":["Movistar has the best internet, tv services in Lima a lot offers and great prices", "Our internet and mobile services have a lot demand right now", "",""]},
+    {"tag":"hours",
+        "patterns":["When are you guys open?","What are your hours?","What are your hours of opperation?","What hours i can count with u?", "¿Como le va?"],
+    "responses":["24/7", "I'm here all day long", "I'm operative 24/7"]},
+    {"tag":"stocks",
+        "patterns":["What cellphones you have?","Which cellphones are in promotion?","which cellphones brands you have?"],
+    "responses":["We have most of the cellphones in the market Apple, Samsung, Xiaomi, Huawei and more", "We have the last phones in Apple, Samsung, Huawei, Xiaomi and more", ""]}
+
+]}
